@@ -1,6 +1,8 @@
 public class Main {
-	public static void main(String[] args) {
-		int x = 5, y = 15, z = 20;
-		System.out.println(x * y + z);
+	public void fullThrottle() {
+		System.out.println("The car is going as fast as it can");
+	}
+	public void speed(int maxSpeed) {
+		System.out.println("Max speed is: " + maxSpeed);
 	}
 }
